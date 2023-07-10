@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Room(){
   const[isLit, setLit] = React.useState(false);
   const brightness = isLit ? 'lit' : 'dark';
-
   const [temp, setTemp] = React.useState(72);
 
   return(
